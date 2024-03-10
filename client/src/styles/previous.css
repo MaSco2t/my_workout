@@ -1,0 +1,81 @@
+.workouts{
+    display:flex;
+    width:100%;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    flex-grow: 0;
+    justify-content:start;
+}
+.workouts .workout {
+    width:250px;
+    height:300px;
+    margin: 2.5% 2.5% 0 2.5%;
+    flex-shrink: 0;
+    flex-grow: 0;
+    text-align: center;
+    border: 1.2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    font-weight:300;
+}
+
+.workouts .excercises{
+    height:85%;
+    border-bottom: 1px solid black;
+}
+
+.workouts .options{
+    height:15%;
+    overflow:clip;
+}
+
+.workouts .options button{
+    border:none;
+    width:50%;
+    height:100%;
+    color:white;
+    border-right:1px solid black;
+}
+
+.workouts .options .edit{
+    background-color:rgb(179, 203, 255);
+}
+
+.workouts .options .submit{ 
+    background-color:rgb(93, 142, 248);
+}
+
+.workouts .options .delete{
+    background-color:rgb(255, 177, 177);
+}
+
+.workouts .options .back{
+    background-color:rgb(252, 106, 106);
+}
+
+
+.workouts h1 {
+    font-size:24px;
+    margin: 5px 0 5px 0;
+}
+
+.workout h3 {
+    margin-top:5px;
+    font-size:16px;
+}
+
+.workouts input{
+    border:none;
+    border-bottom:1px solid black;
+    outline:none;
+}
+
+.workout .input .dark{
+    color:black;
+}
+
+.workouts .savedWorkouts{
+    width:100%;
+    text-align:center;
+    margin: 50px 0 50px 0;
+}

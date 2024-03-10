@@ -1,0 +1,54 @@
+nav {
+  display:flex;
+  height:57px;
+  justify-content: space-between;
+  align-items: center;
+  background-color:white;
+  box-shadow: 1px 1px 1px #5e5d5d;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+nav div{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  flex-shrink:0;
+  flex-grow:0;
+}
+
+nav .left-items {
+  height:100%;
+  width:180px;
+  justify-content:start;
+  margin-left: 1%;
+  background-color: white; 
+  font-weight: 600;
+}
+
+nav .right-items {
+  height:100%;
+  width:600px;
+  justify-content:right;
+  list-style: none;
+}
+  
+nav .right-items div {
+  width:35%;
+  height:100%;
+  cursor:pointer;
+}
+
+nav .right-items .settingsNav {
+  width:30%;
+  height:100%;
+}
+
+nav div .active {
+  background-color: aliceblue;
+}
+
+.hidden{
+  display:none;
+}

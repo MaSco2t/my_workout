@@ -1,0 +1,76 @@
+.authentication {
+    width: 35%;
+    height: 400px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 2% auto 2% auto;
+    background-color:white;
+    text-align:center;
+    font-weight: 300;
+}
+
+.authentication h1 {
+margin-top: 5%;
+font-weight: 400;
+}
+
+.authentication > p {
+margin-top: 5%;
+}
+
+.userInfo {
+width:70%;
+height:180px;
+margin: 5% auto 5% auto;
+}
+
+.userInfo p {
+text-align: start;
+font-size: 14px;
+font-weight: 400;
+}
+
+.userInfo input {
+width: 100%;
+margin-bottom: 5%;
+border-left: none;
+border-top: none;
+border-right: none;
+border-bottom: 2px solid rgb(249, 180, 193);
+outline: none;
+text-overflow: ellipsis;
+font-weight: 300;
+}
+
+.userInfo button { 
+width: 100%;
+height: 25%;
+border:none;
+border-radius: 3px;
+margin: 4% auto 0 auto;
+background-color: rgb(90, 172, 248);
+color:white;
+font-size:1em;
+font-weight: 400;
+cursor:pointer;
+}
+
+.userInfo .badInput{
+    font-size:11px;
+    color:red;
+}
+
+.alternatives {
+    margin-bottom: 5%;
+}
+
+.alternatives button {
+border:none;
+background-color: white;
+color: rgb(119, 166, 222);
+font-weight:300;
+font-size:1em;
+text-decoration: underline;
+text-decoration-thickness: 0.5px;
+cursor:pointer;
+}

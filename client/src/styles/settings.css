@@ -1,0 +1,35 @@
+.settings{
+    width:330px;
+    height:520px;
+    margin-left:20px;
+}
+.settings div{
+    margin-top:20px;
+}
+.settings h3{
+    margin-bottom:10px;
+}
+.settings p{
+    margin-bottom: 10px;
+    width:330px;
+}
+.settings button{
+    width:320px;
+    padding: 10px 0;
+    border: none;
+    border-radius:5px;
+}
+.settings .submit{
+    margin-top: 10px;
+}
+.settings .err{
+    color:red;
+    font-size:14px;
+}
+.settings .back{
+    width:320px;
+    border:1px solid black;
+    margin-top:30px;
+    color:rgb(0, 0, 0);
+    background-color:rgb(244, 192, 95);
+}

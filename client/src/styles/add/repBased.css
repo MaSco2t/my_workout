@@ -1,0 +1,28 @@
+.repBased div{
+    display:flex;
+}
+.repBased div p{
+    margin-right:5px;
+}
+.repBased input{
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    border-bottom-width:1.5px;
+    outline:none;
+}
+
+.repBased div{
+    margin: auto;
+    width:300px;
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+}
+
+.submit button{
+    margin: 20px auto 10px auto;
+    height: 30px;
+    width: 275px;
+    text-align:center;
+}

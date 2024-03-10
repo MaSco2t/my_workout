@@ -1,0 +1,94 @@
+.add{
+  display:flex;
+  justify-content: space-around;
+}
+
+.add > div{
+  width:40%;
+  height:450px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top:25px;
+  background-color:white;
+}
+
+.add h1{
+  width:300px;
+  margin: 20px auto 10px auto;
+  font-size:24px;
+  font-weight:300;
+  text-align:center;
+  text-decoration:underline;
+}
+
+.addExcercises > div{
+  margin: auto;
+  width:300px;
+  display:flex;
+  justify-content:center;
+  margin-top:20px;
+}
+
+.add .options {
+  margin-top:30px;
+}
+
+
+.add .options button {
+  margin-left:10px;
+  width:100px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.rep-based{
+  background-color:rgb(255, 152, 152);
+}
+
+.time-based{
+  background-color:rgb(160, 160, 253);
+}
+
+.workoutDisplay > div {
+  margin:auto;
+  width:350px;
+}
+.workoutDisplay .excercises {
+  display:flex;
+  flex-direction:column;
+  justify-content:start;
+  align-items:center;
+  gap:10px;
+}
+
+.workoutDisplay .excercise{
+  border:1px solid black;
+  border-radius: 5px;
+  width:300px;
+  font-weight:300;
+}
+
+.workoutDisplay .excercises > button{
+  border: none;
+  margin-top:10px;
+  padding: 8px 50px;
+  background-color: rgb(72, 211, 128);
+  color:white;
+}
+
+.workoutDisplay .excercises .deleteExcercise{
+  border: none;
+  border-top: solid 1px black;
+  height:30px;
+  width:100%;
+  color:red;
+  margin-top: 5px;
+  cursor:pointer;
+}
+
+.complaint {
+  color:red;
+  text-align:center;
+  margin-bottom: 30px;
+  font-size:12px;
+}

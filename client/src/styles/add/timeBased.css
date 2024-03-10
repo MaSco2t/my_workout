@@ -1,0 +1,28 @@
+.timeBased div{
+    display:flex;
+}
+.timeBased div p{
+    margin-right:5px;
+}
+.timeBased input{
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    border-bottom-width:1.5px;
+    outline:none;
+}
+
+.timeBased div{
+    margin: auto;
+    width:300px;
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+}
+
+.submit button{
+    margin: 20px auto 10px auto;
+    height: 30px;
+    width: 275px;
+    text-align:center;
+}
